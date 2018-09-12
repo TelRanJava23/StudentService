@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 
 import telran.student.entities.Student;
 
-@Repository
+//@Repository
 public class StudentRepositoryImpl implements IStudentRepository {
 	Map<Integer, Student> students = new ConcurrentHashMap<>();
 
